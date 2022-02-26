@@ -1,0 +1,23 @@
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+@import url("http://fonts.googleapis.com/css?family=Oswald:400,300,700");
+
+main > .container {
+  padding: 60px 15px 0;
+}
+
+body {
+  font-size: 12px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+
+/* Home Page */
+.main-row{
+  padding-top:25px;
+}
+
+.main-card {
+  padding-right:20px;
+}
