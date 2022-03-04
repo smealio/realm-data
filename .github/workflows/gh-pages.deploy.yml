@@ -10,8 +10,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-     env:
-      NEXT_PUBLIC_BASE_PATH: /realm-data
+  env:
+    NEXT_PUBLIC_BASE_PATH: /realm-data
 
 
     strategy:
