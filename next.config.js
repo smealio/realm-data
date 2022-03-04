@@ -1,12 +1,18 @@
 /** @type {import('next').NextConfig} */
-const withNextOptimizedImages = require('next-optimized-images');
+const withPlugins = require('next-compose-plugins');
+const optimizedImages = require('next-optimized-images');
 
-const nextConfig = withNextOptimizedImages({
+const nextConfig = withPlugins([
+  [optimizedImages,{
+
+  }],
+  {
   reactStrictMode: true,
   assetPrefix: '/realm-data/',
   eslint: {
     ignoreDuringBuilds: true,
   }
-})
+}
+])
 
 module.exports = nextConfig
